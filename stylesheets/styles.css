@@ -181,6 +181,17 @@ section {
   margin-left: 0;
 }
 
+.header-top {
+  display: flex;
+  align-items: center;   /* aligne verticalement texte et logo */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
 header img {
   display: block;
   margin-bottom: 15px;
