@@ -8,19 +8,16 @@ body {
  
 /* NAV */
 nav {
-  background-color:#D3D3D3;
+  background-color: #D3D3D3;
   margin-top: 20px;
   letter-spacing: 0.05em;
   font-variant: small-caps;
+  text-align: center; /* centre le menu */
 }
+
 nav a {
-  font-family: Garamond, "EB Garamond", serif;
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-  font-size: 1.1em;
-  display: block;
-  margin-bottom: 8px;
+  display: inline-block;
+  margin: 0 15px;
 }
 
 .sous-nav a {
@@ -31,8 +28,7 @@ nav a {
 
 .sous-nav {
   display: block;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  text-align: center;
 }
 
 .sous-nav a {
@@ -178,12 +174,10 @@ hr {
 }
  
 /* HEADER FIXE (desktop) */
-header {
-  width: 270px;
-  float: left;
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
+section {
+  margin-left: 0;
 }
+
 header img {
   display: block;
   margin-bottom: 15px;
