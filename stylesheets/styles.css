@@ -8,6 +8,7 @@ body {
  
 /* NAV */
 nav {
+  background-color:#D3D3D3;
   margin-top: 20px;
   letter-spacing: 0.05em;
   font-variant: small-caps;
