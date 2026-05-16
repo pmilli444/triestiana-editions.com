@@ -231,12 +231,14 @@ section {
  
 /* FOOTER (desktop) */
 footer {
-  clear: both;
-  width: 620px;
-  margin-left: 300px;
-  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
   font-size: 0.85em;
   color: #444;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  box-sizing: border-box;
 }
  
 /* FORMULAIRE */
