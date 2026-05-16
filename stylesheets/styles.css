@@ -183,7 +183,8 @@ th {
  
 /* IMAGES */
 img {
-  max-width: 60%;
+  max-width: 100%;
+  height: auto;
 }
  
 /* DIVERS */
@@ -291,6 +292,13 @@ form button:hover {
     padding: 15px;
     box-sizing: border-box;
   }
+
+  @media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
 
   /* SUPPRIMER LES BANDES BLEUES */
   .sidebar-left,
