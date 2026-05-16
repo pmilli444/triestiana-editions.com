@@ -12,12 +12,15 @@ nav {
   margin-top: 20px;
   letter-spacing: 0.05em;
   font-variant: small-caps;
-  text-align: center; /* centre le menu */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 nav a {
   display: inline-block;
-  margin: 0 15px;
+  margin-bottom: 0;
 }
 
 .sous-nav a {
