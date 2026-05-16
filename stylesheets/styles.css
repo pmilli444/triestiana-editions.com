@@ -234,11 +234,11 @@ section {
 footer {
   text-align: center;
   width: 100%;
-  padding: 20px 0;
+  padding: 40px 0;
   font-size: 0.85em;
   color: #444;
   border-top: 2px solid #ddd;
-  margin-top: 40px;
+  margin-top: 0px;
   box-sizing: border-box;
 }
  
