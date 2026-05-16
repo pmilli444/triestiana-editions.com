@@ -5,6 +5,24 @@ body {
   color: #000000;
   font-weight: 400;
 }
+
+.sidebar-left,
+.sidebar-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 80px; /* tu peux ajuster */
+  background-color: #000080;
+  z-index: 0;
+}
+
+.sidebar-left {
+  left: 0;
+}
+
+.sidebar-right {
+  right: 0;
+}
  
 /* NAV */
 nav {
