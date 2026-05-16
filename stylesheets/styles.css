@@ -109,11 +109,11 @@ p, ul, ol, table, pre, dl {
  
 /* LIENS */
 a {
-  color: #b834af;
+  color: #000000;
   text-decoration: none;
 }
 a:hover {
-  color: #a21a80;
+  color: #000080;
   text-decoration: underline;
 }
 a small {
