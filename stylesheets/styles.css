@@ -300,6 +300,18 @@ form button:hover {
   }
 }
 
+  @media screen and (max-width: 960px) {
+  .titre-principal {
+    text-align: center;
+  }
+
+  .nom,
+  .fonction {
+    text-align: center;
+  }
+}
+
+  
   /* SUPPRIMER LES BANDES BLEUES */
   .sidebar-left,
   .sidebar-right {
