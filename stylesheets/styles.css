@@ -11,7 +11,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 300px; /* tu peux ajuster */
+  width: 500px; /* tu peux ajuster */
   background-color: #000080;
   z-index: 0;
 }
