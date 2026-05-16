@@ -218,6 +218,7 @@ header img {
 /* SECTION (desktop) */
 section {
    float: none;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
  
