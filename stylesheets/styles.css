@@ -48,6 +48,11 @@ nav a {
   margin-bottom: 0;
 }
 
+nav a.actif {
+  color: #000080;
+  border-bottom: 1px solid #000080;
+}
+
 .sous-nav a {
   padding-left: 15px;
   font-size: 0.95em;
