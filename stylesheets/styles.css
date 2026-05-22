@@ -50,7 +50,8 @@ nav a {
 
 nav a.actif {
   color: #000080;
-  border-bottom: 1px solid #000080;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .sous-nav a {
