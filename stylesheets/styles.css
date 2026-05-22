@@ -108,30 +108,6 @@ h3, h4, h5, h6 {
   font-variant: small-caps;
   letter-spacing: 0.05em;
 }
-
-/* PAGE CONTACT */
-
-.contact-bloc {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.img-contact {
-  width: 180px;
-  height: auto;
-  flex-shrink: 0;
-}
-
-.contact-bloc {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.img-contact {
-  width: 150px;
-}
  
 /* ESPACEMENTS */
 p, ul, ol, table, pre, dl {
@@ -394,5 +370,32 @@ form button:hover {
     max-width: 100%;
     height: auto;
   }
+
+  /* PAGE CONTACT */
+
+.contact-bloc {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.img-contact {
+  width: 300px;
+  height: auto;
+  max-width: none;
+}
+
+.coordonnees {
+  flex: 1;
+}
+
+.contact-bloc {
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-contact {
+  width: 220px;
+}
 }
 }
