@@ -108,6 +108,30 @@ h3, h4, h5, h6 {
   font-variant: small-caps;
   letter-spacing: 0.05em;
 }
+
+/* PAGE CONTACT */
+
+.contact-bloc {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.img-contact {
+  width: 180px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.contact-bloc {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-contact {
+  width: 150px;
+}
  
 /* ESPACEMENTS */
 p, ul, ol, table, pre, dl {
