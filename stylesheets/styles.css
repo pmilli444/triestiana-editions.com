@@ -422,6 +422,14 @@ form button:hover {
     box-sizing: border-box;
   }
 
+  @media screen and (max-width: 960px) {
+
+  .section-paraitre .contact-bloc {
+    text-align: left;
+  }
+
+}
+
   /* CONTACT BLOC MOBILE */
   .contact-bloc {
     flex-direction: column;     /* ← image au-dessus, texte en dessous */
