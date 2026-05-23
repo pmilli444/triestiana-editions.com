@@ -419,4 +419,19 @@ form button:hover {
     display: none;
   }
 
+  /* SECTION FOND BLEU MARINE */
+.section-bleue {
+  background-color: #000080;
+  color: #ffffff;
+  padding: 40px;
+}
+
+.section-bleue a {
+  color: #ffffff;
+}
+
+.section-bleue a:hover {
+  color: #cccccc;
+}
+
 }
