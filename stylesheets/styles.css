@@ -419,24 +419,4 @@ form button:hover {
     display: none;
   }
 
-/* GALERIE */
-.galerie {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-  margin: 40px 0;
-}
-
-.galerie img {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  display: block;
-}
-
-@media screen and (max-width: 960px) {
-  .galerie {
-    grid-template-columns: 1fr;
-  }
-}
 }
