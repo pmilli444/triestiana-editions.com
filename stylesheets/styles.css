@@ -301,9 +301,11 @@ form button:hover {
 /* PAGE CONTACT — desktop */
 .contact-bloc {
   display: flex;
-  align-items: center;        /* centrage vertical */
-  justify-content: center;    /* centrage horizontal */
+  align-items: center;
+  justify-content: center;
   gap: 40px;
+  width: fit-content;        /* ← le bloc prend uniquement la largeur de son contenu */
+  margin: 0 auto;            /* ← ce bloc est alors centré dans la section */
 }
 
 .img-contact {
