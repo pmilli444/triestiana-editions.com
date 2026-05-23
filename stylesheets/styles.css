@@ -422,21 +422,19 @@ form button:hover {
     box-sizing: border-box;
   }
 
-  @media screen and (max-width: 960px) {
-
-  .section-paraitre .contact-bloc {
-    text-align: left;
-  }
-
-}
-
   /* CONTACT BLOC MOBILE */
   .contact-bloc {
-    flex-direction: column;     /* ← image au-dessus, texte en dessous */
+    flex-direction: column;
     align-items: center;
     text-align: center;
     width: 100%;
     gap: 20px;
+  }
+
+  /* EXCEPTION PAGE À PARAÎTRE */
+  .section-paraitre .contact-bloc {
+    align-items: flex-start;
+    text-align: left;
   }
 
   .img-contact {
