@@ -298,15 +298,16 @@ form button:hover {
   display: none;
 }
 
-/* PAGE CONTACT */
+/* PAGE CONTACT — desktop */
 .contact-bloc {
   display: flex;
-  align-items: flex-start;
+  align-items: center;        /* centrage vertical */
+  justify-content: center;    /* centrage horizontal */
   gap: 40px;
 }
 
 .img-contact {
-  width: 220px;
+  width: 440px;               /* doublé (était 220px) */
   height: auto;
   flex-shrink: 0;
 }
@@ -392,7 +393,7 @@ form button:hover {
   }
 
   .img-contact {
-    width: 180px;
+    width: 360px;
   }
 }
 
