@@ -324,6 +324,11 @@ form button:hover {
   color: #cccccc;
 }
 
+.section-bleue h2 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
 /* PAGE CONTACT — desktop */
 .contact-bloc {
   display: flex;
