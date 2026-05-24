@@ -328,6 +328,7 @@ form button:hover {
   color: #ffffff;
   font-size: 20px;
   letter-spacing: 0.05em;
+  font-variant: normal;
 }
 
 /* PAGE CONTACT — desktop */
