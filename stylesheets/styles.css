@@ -31,6 +31,14 @@ body {
   margin: 20px auto;
 }
 
+figcaption {
+  font-size: 0.85em;
+  color: #555;
+  text-align: center;
+  margin-top: 6px;
+  font-style: italic;
+}
+
 /* NAV */
 nav {
   background-color: #D3D3D3;
