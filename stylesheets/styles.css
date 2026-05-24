@@ -201,6 +201,13 @@ img {
   height: auto;
 }
 
+.img-catalogue {
+  width: 220px;
+  height: auto;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
 /* DIVERS */
 strong {
   color: #222;
