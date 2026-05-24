@@ -201,40 +201,6 @@ img {
   height: auto;
 }
 
-.img-catalogue {
-  width: 220px;
-  height: auto;
-  flex-shrink: 0;
-  align-self: flex-start;
-}
-
-.boutons-achat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  margin-top: 12px;
-}
-
-.bouton-achat {
-  display: block;
-  width: 220px;
-  text-align: center;
-  padding: 6px 12px;
-  background-color: transparent;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  font-size: 0.85em;
-  font-variant: small-caps;
-  letter-spacing: 0.05em;
-}
-
-.bouton-achat:hover {
-  background-color: #ffffff;
-  color: #000080;
-  text-decoration: none;
-}
-
 /* DIVERS */
 strong {
   color: #222;
@@ -354,6 +320,7 @@ form button:hover {
 .section-bleue h2 {
   color: #ffffff;
   font-size: 20px;
+  line-height: 1.5;
   letter-spacing: 0.05em;
   font-variant: normal;
   font-family: "EB Garamond", Garamond, serif;
@@ -362,7 +329,7 @@ form button:hover {
 /* PAGE CONTACT — desktop */
 .contact-bloc {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 40px;
   width: fit-content;
@@ -375,21 +342,43 @@ form button:hover {
   flex-shrink: 0;
 }
 
-@media screen and (max-width: 960px) {
-
-  .img-catalogue {
-    display: block;
-    margin: 0 auto;
-  }
-
-   .section-bleue .coordonnees {
-    text-align: left;
-  }
-
+.img-catalogue {
+  width: 220px;
+  height: auto;
+  flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .coordonnees {
   flex: 1;
+}
+
+/* BOUTONS ACHAT */
+.boutons-achat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.bouton-achat {
+  display: block;
+  width: 220px;
+  text-align: center;
+  padding: 6px 12px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-size: 0.85em;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+}
+
+.bouton-achat:hover {
+  background-color: #ffffff;
+  color: #000080;
+  text-decoration: none;
 }
 
 /* GALERIE */
@@ -496,9 +485,19 @@ form button:hover {
     width: 220px;
   }
 
+  .img-catalogue {
+    display: block;
+    margin: 0 auto;
+  }
+
   .coordonnees {
     flex: none;
     width: 100%;
+  }
+
+  /* EXCEPTION CATALOGUE MOBILE */
+  .section-bleue .coordonnees {
+    text-align: left;
   }
 
   .galerie {
