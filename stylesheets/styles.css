@@ -344,6 +344,10 @@ form button:hover {
   margin: 0 auto;
 }
 
+.contact-centre {
+  align-items: center;
+}
+
 .img-contact {
   width: 440px;
   height: auto;
