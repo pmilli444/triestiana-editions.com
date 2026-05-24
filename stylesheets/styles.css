@@ -375,6 +375,15 @@ form button:hover {
   flex-shrink: 0;
 }
 
+@media screen and (max-width: 960px) {
+
+  .img-catalogue {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
 .coordonnees {
   flex: 1;
 }
