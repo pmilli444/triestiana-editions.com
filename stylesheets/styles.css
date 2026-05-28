@@ -340,6 +340,7 @@ form button:hover {
   align-items: flex-start;
   justify-content: center;
   gap: 40px;
+  width: -webkit-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
