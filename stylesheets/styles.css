@@ -8,7 +8,7 @@ html {
 
 body {
   background-color: #ffffff;
-  padding: 50px;
+  padding: 50px 380px;
   font: 18px/1.8 "EB Garamond", Garamond, serif;
   color: #000000;
   font-weight: 400;
@@ -168,6 +168,8 @@ a:hover small {
   max-width: 860px;
   margin: 0 auto;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
 }
 
 /* BLOCKQUOTE */
