@@ -7,8 +7,9 @@ html {
 }
 
 body {
+  --page-gutter: clamp(15px, calc((100vw - 760px) / 2), 380px);
   background-color: #ffffff;
-  padding: 50px 380px;
+  padding: 50px var(--page-gutter);
   font: 18px/1.8 "EB Garamond", Garamond, serif;
   color: #000000;
   font-weight: 400;
@@ -22,7 +23,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 350px;
+  width: max(0px, calc(var(--page-gutter) - 30px));
   background-color: #000080;
   z-index: 0;
 }
@@ -117,8 +118,19 @@ h3, h4, h5, h6 {
 
 /* TITRE PERSONNALISÉ */
 .titre-principal {
+  margin: 0 0 20px;
   text-align: left;
   font-weight: normal;
+  line-height: 1.1;
+}
+
+.titre-page {
+  font-weight: 700;
+}
+
+.annee-catalogue {
+  margin-bottom: 8px;
+  font-size: 1.15em;
 }
 
 .nom {
@@ -258,16 +270,18 @@ header img {
   margin-bottom: 15px;
 }
 
-/* SECTION */
-section {
+/* CONTENU PRINCIPAL */
+main {
   float: none;
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-section a {
+main a {
   color: #000080;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 /* FOOTER */
@@ -329,7 +343,7 @@ form button:hover {
 .section-bleue {
   background-color: #000080;
   color: #ffffff;
-  padding: 40px;
+  padding: clamp(16px, 4vw, 40px);
 }
 
 .section-bleue a {
@@ -340,13 +354,15 @@ form button:hover {
   color: #cccccc;
 }
 
-.section-bleue h2 {
+.section-bleue h1 {
   color: #ffffff;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.05em;
   font-variant: normal;
   font-family: "EB Garamond", Garamond, serif;
+  font-weight: bold;
+  text-align: inherit;
 }
 
 /* PAGE CONTACT — desktop */
@@ -388,6 +404,8 @@ form button:hover {
 
 .coordonnees {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 /* BOUTONS ACHAT */
@@ -402,6 +420,7 @@ form button:hover {
 .bouton-achat {
   display: block;
   width: 220px;
+  max-width: 100%;
   text-align: center;
   padding: 6px 12px;
   background-color: transparent;
@@ -410,9 +429,11 @@ form button:hover {
   font-size: 0.85em;
   font-variant: small-caps;
   letter-spacing: 0.05em;
+  text-decoration: none;
 }
 
-.bouton-achat:hover {
+.section-bleue .bouton-achat:hover,
+.section-bleue .bouton-achat:focus-visible {
   background-color: #ffffff;
   color: #000080;
   text-decoration: none;
@@ -487,7 +508,7 @@ form button:hover {
     gap: 10px;
   }
 
-  section {
+  main {
     margin-left: 0 !important;
     float: none;
     width: auto;
