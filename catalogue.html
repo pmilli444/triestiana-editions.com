@@ -116,5 +116,15 @@
       <p>© Triestiana Éditions 2026</p>
     </footer>
 
+    <script>
+      window.addEventListener("pageshow", (event) => {
+        const navigation = performance.getEntriesByType("navigation")[0];
+
+        // Rebuild the catalogue when the browser restores it from history.
+        if (event.persisted || navigation?.type === "back_forward") {
+          window.location.reload();
+        }
+      });
+    </script>
   </body>
 </html>
