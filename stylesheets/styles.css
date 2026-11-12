@@ -120,6 +120,7 @@ h3, h4, h5, h6 {
 .titre-principal {
   margin: 0 0 20px;
   text-align: left;
+  font-size: 28px;
   font-weight: normal;
   line-height: 1.1;
 }
